@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Museo del Automóvil Puebla</title>
+    <!-- Bootstrap -->
+	<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="../css/museo.css" rel="stylesheet">
+  </head>
+  <body>
+	   <img id="icono_museo" src="../iconos/icono_museo.png" alt="icono_museo.png">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="eventos.html">Eventos</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="galeria.html">Galería</a> </li>
+           <li class="nav-item"> <a class="nav-link" href="revista.html">Revista</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="reservaciones.html">Reservaciones</a> </li>
+          
+      </ul>
+    </div>
+  </nav>
+	 <div class="row">
+  <div class="col-4">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home" animate__fadeInLeft>Renta de autos</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile" animate__bounceInUp="3seg">Restaurante La Cúpula</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Helipuerto</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Turibuzzito</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list" animate__fadeInLeft>
+			<h4>Contrata alguna de nuestras exhibiciones para tus XV años, boda o algún evento especial</h4>
+		    <img id="renta_img" src="../images/boda.jpeg" alt="rentauto.jpg">
+		  	<img id="renta2_img" src="../images/xv.jpeg" alt="rentauto.jpg">
+		<p>Tel (222) 243 48 66 o escríbenos</p>
+	<label for="textfield">Nombre:</label>
+      <input type="text" name="textfield" id="textfield"><br>
+		Correo:<input type="email"> <br>
+		<label for="textfield2">Asunto:</label>
+      <input type="text" name="textfield2" id="textfield2"><br>
+		<label for="textfield2">Fecha y recorrido:</label>
+      <textarea></textarea><br>
+	<input type="submit"> </div>
+		
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+		  <h4>Ofrece opciones de tenedor libre · Ofrece buenos cócteles · Tiene música en vivo</h4>
+		    <img id="restaurante_img" src="../images/restaurante.jpg" alt="restaurante.jpg">
+		  <h5><b>Horario:</b> Lunes a Sábado de 8:00 a.m. a 11:00 p.m. 
+		  						Domingos de 8:00 a.m. a 6:00 p.m.</h5>
+		  <p><b>Dirección:</b> Calle 3 Sur 1501, Centro histórico de Puebla, 72000 Heroica Puebla de Zaragoza, Pue.</p>
+		  <p><b>Teléfono:</b>  222 211 6189</p>
+		</div>
+		
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+		<h4>Haz tus reservaciones</h4>
+	    <p><b>Teléfono:</b> (998) 155 14 03</p>
+		      <img id="heli_img" src="../images/hover.jpg" alt="helicoptero.jpg">
+				  <label for="textfield3">Nombre:</label>
+			  <input type="text" name="textfield3" id="textfield3"><br>
+				Correo:<input type="email"> <br>
+				<label for="textfield3">Asunto:</label>
+			  <input type="text" name="textfield" id="textfield3_1"><br>
+				<label for="textfield3">Mensaje:</label>
+			  <textarea></textarea><br>
+			<input type="submit">
+	  </div>
+		
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+		<h4>Carrito de Golf que no contamina por ser electrico, se renta para dar un paseo en las bellas calles del Centro Historico de Puebla.</h4>
+        <img id="turi_img" src="../images/turibuzzito.jpg" alt="turibuzzito.jpg">
+		<p><b>Costo:</b> $1000 por hora</p>
+		  		<p><b>Cupo:</b> 10 personas</p>
+		  		<p><b>Incluye chofer</b></p>
+  		<p><b>Informes</b></p>
+		<p>(222) 402 76 40</p>
+		<p>museoautopuebla@hotmail.com</p>
+		</div>
+    </div>
+  </div>
+</div>
+	  <footer>
+  <div class="row">
+    <div class="col-lg-3">
+		  <section id="sec7">
+		  <img src="../iconos/icono_museo.png" alt="museoimg">
+	    </section>
+      </div> 
+    <div class="col-lg-3">
+		  <section id="sec8">
+		    <p class="col-lg-10"> </p><h3 id="tex15">Contáctanos </h3>
+		    <p id="tex16">(222) 243 45 61</p>
+		      <p id="tex17">(222) 240 71 37</p>
+			  <p id="tex18">museoautopuebla@hotmail.com</p>
+	    </section>
+      </div>
+    <div class="col-lg-3">
+		  <section id="sec9">
+		    <p id="tex19"> 3 Sur 1501 Col. Centro (a 7 cuadras de catedral) C.P. 72000</p>
+	      </section>
+      </div> 
+    <div class="col-lg-3">
+	  <section id="sec10">
+	    <h3 id="tex20"> Síguenos en nuestras redes:</h3>
+	    <a href="https://www.instagram.com/museo_auto_puebla/"> <img id="ico_insta" src="../iconos/icons8-instagram-144.png" alt="redirige a instagram"></a>
+	    <a href="https://www.facebook.com/museodelautomovilpue/"> <img id="ico_face" src="../iconos/icons8-facebook-nuevo-144.png" alt="redirige a facebook"> </a>
+	    <a href="https://www.youtube.com/@museodelautomovilpuebla4159"> <img id="ico_you" src="../iconos/icons8-youtube-144.png" alt="redirige a youtube"> </a>
+	    <a href="https://x.com/MuseoAutoPuebla"> <img id="ico_x" src="../iconos/icons8-twitterx-150.png" alt="redirige a twitter"> </a>		  
+      </section>
+    </div>
+    </div>
+</footer>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../js/popper.min.js"></script> 
+  <script src="../js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
